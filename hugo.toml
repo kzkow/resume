@@ -1,0 +1,54 @@
+title = "Alex Kazakov"
+baseURL = "https://example.com/"
+theme = "hugo"
+languageCode = "en-us"
+PygmentsCodeFences = true
+PygmentsCodeFencesGuessSyntax = true
+PygmentsStyle = "monokai"
+enableGitInfo = false
+
+[params]
+address = "📍 Moscow"
+email = "iz-nino@yandex.ru"
+favicon = "/favicon.ico"
+firstName = "Alex"
+lastName = "Kazakov"
+phone = "1-555-555-1234"
+profileImage = "img/TechChat.png"
+showQr = false
+showContact = false
+showBoards  = true
+showCertifications = true
+showSocializations = true
+sections = ["skills","publications","creations","contributions","experience","education","blog"]
+
+
+[params.google]
+
+[params.google.analytics]
+trackerID = "XX-123446-01"
+
+[[params.handles]]
+    name = "LinkedIn"
+    link = "https://www.linkedin.com/in/kzkow/"
+
+[[params.handles]]
+    name = "GitHub"
+    link = "https://github.com/kzkow"
+
+[[params.handles]]
+    name = "Telegram"
+    link = "https://t.me/kzkow"
+    icon = "telegram"
+    
+[[params.handles]]
+    name = "Youtube"
+    link = "https://www.youtube.com/@kzkow"
+    icon = "youtube"
+
+
+[outputs]
+home = ["HTML", "JSON"]
+
+[taxonomies]
+tag = "tags"
